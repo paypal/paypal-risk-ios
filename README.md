@@ -25,9 +25,3 @@ pod 'PayPalRisk'
 Carthage users can select a release from the versioned URLs in
 `Carthage/PayPalRisk.json`. Each entry points to its corresponding
 `PPRiskMagnes.xcframework.zip` release asset.
-
-## License
-
-PayPal Risk iOS is distributed under the PayPal SDK license included in the
-podspec. Third-party components, if present, remain subject to their own
-licenses.
