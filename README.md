@@ -29,9 +29,6 @@ targets: [
 ]
 ```
 
-The framework is statically linked into the application and should not be
-added to an Embed Frameworks build phase.
-
 ## CocoaPods
 
 ```ruby
@@ -60,5 +57,4 @@ carthage update --use-xcframeworks --platform iOS
 ```
 
 In Xcode, add `Carthage/Build/PPRiskMagnes.xcframework` to your application
-target's **Frameworks, Libraries, and Embedded Content** section and select
-**Do Not Embed**.
+target's **Frameworks, Libraries, and Embedded Content** section.
