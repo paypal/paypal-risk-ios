@@ -62,9 +62,3 @@ carthage update --use-xcframeworks --platform iOS
 In Xcode, add `Carthage/Build/PPRiskMagnes.xcframework` to your application
 target's **Frameworks, Libraries, and Embedded Content** section and select
 **Do Not Embed**.
-
-## License
-
-PayPal Risk iOS is distributed under the PayPal SDK license included in the
-podspec. Third-party components, if present, remain subject to their own
-licenses.
