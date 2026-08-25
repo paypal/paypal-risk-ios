@@ -2,13 +2,13 @@
 
 import PackageDescription
 
-let packageVersion = "5.6.0-beta1"
-let packageChecksum = "b83c6c90fbfc59883d35b947457142303ef586e56fcc01b52182b2cfc7132243"
+let packageVersion = "5.6.0-beta2"
+let packageChecksum = "66a26c6f8f36ae4bd7d37feb08e3de00b73a2732b62b4f239c419bd6d1513833"
 
 let package = Package(
     name: "PayPalRisk",
     platforms: [
-        .iOS("15.6")
+        .iOS("15.0")
     ],
     products: [
         .library(

@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "PayPalRisk"
-  spec.version      = "5.6.0-beta1"
+  spec.version      = "5.6.0-beta2"
   spec.summary      = "PayPal Risk iOS SDK"
   spec.description  = "PayPal Risk iOS SDK distributed as a binary XCFramework."
   spec.homepage     = "https://github.com/paypal/paypal-risk-ios"
@@ -88,10 +88,8 @@ Pod::Spec.new do |spec|
 LICENSE
   }
 
-  spec.platform      = :ios, "15.6"
+  spec.platform      = :ios, "15.0"
   spec.swift_version = "5.0"
-  spec.static_framework = true
-
   spec.source = {
     :http => "https://github.com/paypal/paypal-risk-ios/releases/download/#{spec.version}/PPRiskMagnes.xcframework.zip"
   }
