@@ -5,7 +5,10 @@ Pod::Spec.new do |spec|
   spec.description  = "PayPal Risk iOS SDK distributed as a binary XCFramework."
   spec.homepage     = "https://github.com/paypal/paypal-risk-ios"
   spec.author       = { "PayPal" => "sdks@paypal.com" }
-  spec.license      = "Apache-2.0"
+  spec.license      = {
+    :type => "Apache-2.0",
+    :text => File.read(File.join(__dir__, "LICENSE"))
+  }
 
   spec.platform      = :ios, "15.0"
   spec.swift_version = "5.0"
