@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "PayPalRisk"
-  spec.version      = "5.6.0-beta2"
+  spec.version      = "5.6.0"
   spec.summary      = "PayPal Risk iOS SDK"
   spec.description  = "PayPal Risk iOS SDK distributed as a binary XCFramework."
   spec.homepage     = "https://github.com/paypal/paypal-risk-ios"
